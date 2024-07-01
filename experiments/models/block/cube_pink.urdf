@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+    <material name="red">
+        <color rgba="0.69 0.09 0.12 1"/>
+    </material>
+    <material name="green">
+        <color rgba="0.0 0.69 0.2 1"/>
+    </material>
+    <material name="blue">
+        <color rgba="0.1 0.1 0.69 1"/>
+    </material>
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.0 1"/>
+    </material>
+    <material name="purple">
+        <color rgba="0.69 0.1 0.69 1"/>
+    </material>
+    <material name="cyan">
+        <color rgba="0.0 0.69 0.69 1"/>
+    </material>
+    <material name="orange">
+        <color rgba="0.95 0.5 0.2 1"/>
+    </material>
+    <material name="pink">
+        <color rgba="1 0.75 0.8 1"/>
+    </material>
+
+    <link name="cube_link">
+        <contact>
+          <lateral_friction value="1"/>
+          <rolling_friction value="1"/>
+          <spinning_friction value="1"/>
+
+          <inertia_scaling value="0.5"/>
+        </contact>
+        <inertial>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+           <mass value="3"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <box size=".06 .06 .06"/>
+          </geometry>
+          <material name="pink" />
+        </visual>
+        <collision>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <box size=".06 .06 .06"/>
+          </geometry>
+        </collision>
+    </link>
+
+</robot>
+

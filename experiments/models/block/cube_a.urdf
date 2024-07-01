@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+    <link name="cube_link">
+        <contact>
+          <lateral_friction value="1"/>
+          <rolling_friction value="1"/>
+          <spinning_friction value="1"/>
+
+          <inertia_scaling value="0.5"/>
+        </contact>
+        <inertial>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+           <mass value="3"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <box size=".06 .06 .06"/>
+          </geometry>
+        </visual>
+        <collision>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <box size=".06 .06 .06"/>
+          </geometry>
+        </collision>
+    </link>
+
+    <link name="right_face">
+        <inertial>
+          <origin rpy="0 0 0" xyz="0 0 0.00"/>
+           <mass value="0"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="1.57 0 3.14" xyz="-0.02 0.02 0.00"/>
+          <geometry>
+            <mesh filename="package://A.stl" scale="0.001 0.001 0.001"/>
+          </geometry>
+          <material name="red">
+            <color rgba="0.69 0.09 0.12 1"/>
+          </material>
+        </visual>
+    </link>
+
+    <joint name="cube2right_face" type="fixed">
+        <parent link="cube_link"/>
+        <child link="right_face"/>
+    </joint>
+
+    <link name="left_face">
+        <inertial>
+          <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+           <mass value="0"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="1.57 0 0" xyz="0.02 -0.02 0.0"/>
+          <geometry>
+            <mesh filename="package://A.stl" scale="0.001 0.001 0.001"/>
+          </geometry>
+          <material name="red">
+            <color rgba="0.69 0.09 0.12 1"/>
+          </material>
+        </visual>
+    </link>
+
+    <joint name="cube2left_face" type="fixed">
+        <parent link="cube_link"/>
+        <child link="left_face"/>
+    </joint>
+
+    <link name="front_face">
+        <inertial>
+          <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+           <mass value="0"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="1.57 0 1.57" xyz="0.02 0.02 0.0"/>
+          <geometry>
+            <mesh filename="package://A.stl" scale="0.001 0.001 0.001"/>
+          </geometry>
+          <material name="red">
+            <color rgba="0.69 0.09 0.12 1"/>
+          </material>
+        </visual>
+    </link>
+
+    <joint name="cube2front_face" type="fixed">
+        <parent link="cube_link"/>
+        <child link="front_face"/>
+    </joint>
+
+     <link name="back_face">
+        <inertial>
+          <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+           <mass value="0"/>
+           <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+          <origin rpy="1.57 0 -1.57" xyz="-0.02 -0.02 0.0"/>
+          <geometry>
+            <mesh filename="package://A.stl" scale="0.001 0.001 0.001"/>
+          </geometry>
+          <material name="red">
+            <color rgba="0.69 0.09 0.12 1"/>
+          </material>
+        </visual>
+    </link>
+
+    <joint name="cube2back_face" type="fixed">
+        <parent link="cube_link"/>
+        <child link="back_face"/>
+    </joint>
+
+</robot>
+

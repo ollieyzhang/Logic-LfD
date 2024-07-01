@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "./algorithms/pddlstream",
+        "./algorithms/lgp",
+        "./env-thirdparty/pybullet_planning",
+        "./env-thirdparty/pandapybullet",
+        "./env-thirdparty/lisdf",
+        "./stations/panda_station",
+        "./env",
+        "./algorithms/motion_planner/pbdlib_python/",
+        "./algorithms/motion_planner/pydmps/",
+        "./visualization",
+    ]
+}
