@@ -1,6 +1,9 @@
-"""
-This file is copied here, but have not yet been used
-"""
+# -----------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# This file is part of the RDF project.
+# Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
+# Contributor: Yan Zhang <yan.zhang@idiap.ch>
+# -----------------------------------------------------------------------------
 
 from __future__ import print_function
 

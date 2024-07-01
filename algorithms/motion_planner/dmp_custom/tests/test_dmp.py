@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# This file is part of the RDF project.
+# Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
+# Contributor: Yan Zhang <yan.zhang@idiap.ch>
+# -----------------------------------------------------------------------------
 """
 This file compare the performance of DMP and LQT_cp
 for tracking a letter in terms of trajectory similiarity,
