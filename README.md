@@ -36,15 +36,15 @@ This repo aims to illustrate how LogicLfD accelerates TAMP solvers with one sing
 ## Citation
 If this project helps your work, please consider citing our paper with
 ```
-@article{Zhang24RAL,
-	author={Zhang, Y. and Xue, T. and Razmjoo, A. and Calinon, S.},
-	title={Logic Learning from Demonstrations for Multi-step Manipulation Tasks in Dynamic Environments},
-	journal={{IEEE} Robotics and Automation Letters ({RA-L})},
-	year={2024},
-	volume={},
-	number={},
-	pages={},
-	doi={10.1109/LRA.2024.3418276}
+@article{zhang2024logic,
+  title={Logic Learning from Demonstrations for Multi-step Manipulation Tasks in Dynamic Environments},
+  author={Zhang, Yan and Xue, Teng and Razmjoo, Amirreza and Calinon, Sylvain},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  volume={9},
+  number={8},
+  pages={7214-7221},
+  doi={10.1109/LRA.2024.3418276}
 }
 ```
 
