@@ -4,6 +4,11 @@
 # Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
 # Contributor: Yan Zhang <yan.zhang@idiap.ch>
 # -----------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------
+# Functions in this script is adapted from 
+# https://github.com/rvl-lab-utoronto/drake-tamp
+#-----------------------------------------------------------------------------
 import time
 import numpy as np
 import itertools

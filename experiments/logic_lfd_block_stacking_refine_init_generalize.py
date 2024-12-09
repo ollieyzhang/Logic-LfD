@@ -4,6 +4,7 @@
 # Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
 # Contributor: Yan Zhang <yan.zhang@idiap.ch>
 # -----------------------------------------------------------------------------
+
 """
 This scripts illustrates how Logic-LfD is used to solve 
 the block stacking problem with different initial states

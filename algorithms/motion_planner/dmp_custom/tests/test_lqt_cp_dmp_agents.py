@@ -4,6 +4,7 @@
 # Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
 # Contributor: Yan Zhang <yan.zhang@idiap.ch>
 # -----------------------------------------------------------------------------
+
 # %%
 import time
 import numpy as np

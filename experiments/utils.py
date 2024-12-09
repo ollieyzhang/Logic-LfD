@@ -5,6 +5,10 @@
 # Contributor: Yan Zhang <yan.zhang@idiap.ch>
 # -----------------------------------------------------------------------------
 
+"""
+This file is copied here, but have not yet been used
+"""
+
 from __future__ import print_function
 
 import collections

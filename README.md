@@ -1,6 +1,9 @@
 # Logic-LfD
 
-## This is the official implementation for the paper "Logic-LfD: Logic Learning from Demonstrations for Multi-step Manipulation Tasks in Dynamic Environments", published in IEEE RA-L 2024 [[pdf]](https://arxiv.org/pdf/2404.16138v2)[[webpage]](https://sites.google.com/view/logic-lfd)
+## This is a python implementation of our paper "Logic-LfD: Logic Learning from Demonstrations for Multi-step Manipulation Tasks in Dynamic Environments", published in IEEE RA-L 2024 
+[[pdf]](https://arxiv.org/pdf/2404.16138v2)
+
+[[webpage]](https://sites.google.com/view/logic-lfd)
 
 ## Installation
 1. Clone the repo along with the submodules. It may take a while.
@@ -27,6 +30,9 @@
 	```
 	python -m experiments/reactive_tamp_block_stacking_refine.py
 	```
+
+## Notes
+This repo aims to illustrate how LogicLfD accelerates TAMP solvers with one single demonstration. We simplified the planning domain defintion and streams to help the readers to understand our method. For full TAMP planning, one should modify the PDDL files correspondingly for their specific problems.
 ## Citation
 If this project helps your work, please consider citing our paper with
 ```
