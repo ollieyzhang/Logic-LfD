@@ -1,11 +1,7 @@
 numpy
 pybullet
 pyyaml
-lark
 scipy==1.8.0
-untangle==1.1.1
-pydot
-pygraphviz
 networkx
 seaborn
 tqdm
