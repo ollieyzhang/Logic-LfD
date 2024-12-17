@@ -1,3 +1,10 @@
+;-----------------------------------------------------------------------------
+; SPDX-License-Identifier: GPL-3.0-only
+; This file is part of the LogicLfD project.
+; Copyright (c) 2024 Idiap Research Institute <contact@idiap.ch>
+; Contributor: Yan Zhang <yan.zhang@idiap.ch>
+; -----------------------------------------------------------------------------
+
 (define (stream blocks_world)
 
   (:stream find-grasp
