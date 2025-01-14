@@ -1,0 +1,3 @@
+[submodule "env-thirdparty/pybullet_planning"]
+	path = env-thirdparty/pybullet_planning
+	url = https://github.com/caelan/pybullet-planning.git
